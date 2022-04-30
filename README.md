@@ -221,11 +221,12 @@ Find all the information about each products
 
 
 Find the product price which are between 400 to 800            
-<img width="1680" alt="Screen Shot 2022-04-30 at 9 18 53 AM" src="https://user-images.githubusercontent.com/26063120/166089452-f5853db0-3ae1-42c4-a6eb-327e6c9de64f.png">       
+<img width="1680" alt="Screen Shot 2022-04-30 at 9 18 53 AM" src="https://user-images.githubusercontent.com/26063120/166089452-f5853db0-3ae1-42c4-a6eb-327e6c9de64f.png">      
+
    
 Find the product price which are not between 400 to 600      
 db.product.find({$and : [{product_price :{$not :  {$gte : 400}}},{product_price : {$not : {$lte : 800}}}]})
-
+<img width="1680" alt="Screen Shot 2022-04-30 at 4 21 05 PM" src="https://user-images.githubusercontent.com/26063120/166117258-c7c79616-539b-48ee-ab13-79bd7099f093.png">
 
 
 List the four product which are grater than 500 in price     
