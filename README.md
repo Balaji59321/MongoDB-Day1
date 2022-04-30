@@ -216,21 +216,21 @@ switched to db student
 }      
 
 
-Find all the information about each products       
+Find all the information about each products          
 <img width="1370" alt="Screen Shot 2022-04-30 at 9 08 20 AM" src="https://user-images.githubusercontent.com/26063120/166089128-6349f2d2-cfee-46bc-9392-7a4c0618bb67.png">      
 
 
-Find the product price which are between 400 to 800        
+Find the product price which are between 400 to 800            
 <img width="1680" alt="Screen Shot 2022-04-30 at 9 18 53 AM" src="https://user-images.githubusercontent.com/26063120/166089452-f5853db0-3ae1-42c4-a6eb-327e6c9de64f.png">       
+   
+Find the product price which are not between 400 to 600        
 
-Find the product price which are not between 400 to 600    
 
-
-List the four product which are grater than 500 in price 
+List the four product which are grater than 500 in price     
 <img width="1680" alt="Screen Shot 2022-04-30 at 9 29 54 AM" src="https://user-images.githubusercontent.com/26063120/166089757-0a3cb0b6-8c33-45c3-b832-06192e87c68d.png">
 
 
-Find the product name and product material of each products
+Find the product name and product material of each products      
 <img width="400" alt="Screen Shot 2022-04-30 at 9 33 20 AM" src="https://user-images.githubusercontent.com/26063120/166089857-99ca2861-c209-4d5b-a77b-b50d8684e839.png">
 
 
@@ -241,15 +241,15 @@ Find the product with a row id of 10
 Find only the product name and product material   
 <img width="400" alt="Screen Shot 2022-04-30 at 9 33 20 AM" src="https://user-images.githubusercontent.com/26063120/166089922-8ce31a04-dc3a-49d0-bcc5-724ba36d215d.png">
 
-Find all products which contain the value of soft in product material 
+Find all products which contain the value of soft in product material     
 <img width="1678" alt="Screen Shot 2022-04-30 at 9 36 41 AM" src="https://user-images.githubusercontent.com/26063120/166089944-2032538e-1ab9-4d45-a1cf-26313547ae7c.png">
 
 
-Find products which contain product color indigo  and product price 492.00
+Find products which contain product color indigo  and product price 492.00       
 <img width="1680" alt="Screen Shot 2022-04-30 at 9 40 14 AM" src="https://user-images.githubusercontent.com/26063120/166090057-307a9bd0-48e1-42f5-9274-f3f51d54d5f0.png">
 
 
-Delete the products which product price value are same
+Delete the products which product price value are same      
 
 
 
