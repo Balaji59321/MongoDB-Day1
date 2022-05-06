@@ -252,4 +252,9 @@ Find products which contain product color indigo  and product price 492.00
 <img width="1680" alt="Screen Shot 2022-04-30 at 9 40 14 AM" src="https://user-images.githubusercontent.com/26063120/166090057-307a9bd0-48e1-42f5-9274-f3f51d54d5f0.png">
 
 
-Delete the products which product price value are same      
+Delete the products which product price value are same    
+<img width="1674" alt="Screen Shot 2022-05-06 at 4 32 16 PM" src="https://user-images.githubusercontent.com/26063120/167119726-14a09c3e-5b35-4634-923d-f75c170fd4aa.png">
+db.product.aggregate([{ $group : { _id: "$product_price",count : {$sum : 1},"dups" :{"$push" : "$id"}}},{$match : {count : {$gt : 1}} }])
+db.product.remove({id : {$in : ["24","20"]}})
+
+
